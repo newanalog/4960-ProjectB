@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Post Roast</title>
+  <style>
+    .borderline {
+      border-top: 1px solid #dee2e6 !important;
+      padding-top: 2em;
+    }
+
+    @media only screen and (min-width : 768px) {
+      .borderline {
+        border-left: 1px solid #dee2e6 !important;
+        border-top: 0 !important;
+        padding-top: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light mb-2">
+      <a class="navbar-brand" href="index.html">
+        <img src="/static/img/navlogo.jpg" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Post Roast Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Subscriptions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" tabindex="-1" href="#">Shop</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Account</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="profile.html">Flavor Profile</a>
+              <a class="dropdown-item" href="#">Orders</a>
+              <a class="dropdown-item" href="#">Browse Coffees</a>
+              <a class="dropdown-item active" href="account.html">Manage Account</a>
+              <a class="dropdown-item" href="login.html">Log In</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="container mb-4 d-none d-sm-block">
+      <div class="row">
+        <img src="https://www.fillmurray.com/1200/200" class="img-fluid">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="list-group" id="myList" role="tablist">
+            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#subscription-control"
+              role="tab">Subscription Control</a>
+            <a class="list-group-item list-group-item-action" data-toggle="list" href="#contact-info"
+              role="tab">Shipping and Contact Info</a>
+            <a class="list-group-item list-group-item-action" data-toggle="list" href="#payment-management"
+              role="tab">Payment Management</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="tab-content">
+            <div class="tab-pane active" id="subscription-control" role="tabpanel">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h5 class="card-title">Pause Your Shipments</h5>
+                  <h6 class="card-subtitle mb-4 text-muted">Need to take a break? Be sure to let us know a date when we
+                    can resume your shipments.</h6>
+                  <div class="container">
+                    <form class="form-inline">
+                      <div class="form-group mb-2">
+                        <label>Pause and resume shipments on:</label>
+                      </div>
+                      <div class="form-group input-group mx-sm-3 mb-2">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">&#128197;</span>
+                        </div>
+                        <input type="date" class="form-control">
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h5 class="card-title">Change Frequency and Price</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Adjust the frequency of your shipments.</h6>
+                  <form>
+                    <div class="row">
+                      <div class="col">
+                        <select class="custom-select" id="inputGroupSelect01">
+                          <option selected>Quantity...</option>
+                          <option value="1">1 Bag</option>
+                          <option value="2">2 Bags</option>
+                          <option value="3">3 Bags</option>
+                          <option value="4">4 Bags</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <select class="custom-select" id="inputGroupSelect02">
+                          <option selected>Size...</option>
+                          <option value="1">1/2 lb. per bag</option>
+                          <option value="2">1 lb. per bag</option>
+                          <option value="3">2 lbs. per bag</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <select class="custom-select" id="inputGroupSelect03">
+                          <option selected>Frequency...</option>
+                          <option value="1">Weekly</option>
+                          <option value="2">Monthly</option>
+                        </select>
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Cancel Your Subscription</h5>
+                  <h6 class="card-subtitle mb-4 text-muted">We would hate to see you go but we understand that there are
+                    more important things than coffee. Click the cancel button below and your subscription will be
+                    cancelled starting with the next billing cycle. We hope to see you back soon!</h6>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <form>
+                        <button type="submit" class="btn btn-primary mb-2">Cancel Subscription</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="contact-info" role="tabpanel">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Shipping and Contact Info</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Not implemented for this project.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="payment-management" role="tabpanel">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Payment Management</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Not implemented for this project.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        $(function () {
+          $('#myList a:last-child').tab('show')
+        })
+      </script>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <span>&COPY; Copyright 2020, Post Roast</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
