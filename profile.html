@@ -6,301 +6,318 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/styles.css">
   <title>Post Roast</title>
 </head>
 
 <body>
+  <div class="content">
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light mb-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="/static/img/navlogo.jpg" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light mb-2">
-      <a class="navbar-brand" href="index.html">
-        <img src="/static/img/navlogo.jpg" height="40">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Post Roast Story</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Subscriptions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" tabindex="-1" href="#">Shop</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Account</a>
-            <div class="dropdown-menu dropdown-menu-right">
-              <a class="dropdown-item active" href="profile.html">Flavor Profile</a>
-              <a class="dropdown-item" href="#">Orders</a>
-              <a class="dropdown-item" href="#">Browse Coffees</a>
-              <a class="dropdown-item" href="account.html">Manage Account</a>
-              <a class="dropdown-item" href="login.html">Log In</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="container">
-    <div class="container mb-4 d-none d-sm-block">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-center mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Post Roast Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscriptions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" tabindex="-1" href="#">Shop</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Account</a>
+              <div class="dropdown-menu dropdown-menu-right text-center">
+                <a class="dropdown-item active" href="profile.html">Flavor Profile</a>
+                <a class="dropdown-item" href="#">Orders</a>
+                <a class="dropdown-item" href="#">Browse Coffees</a>
+                <a class="dropdown-item" href="account.html">Manage Account</a>
+                <a class="dropdown-item" href="login.html">Log In</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
       <div class="row">
-        <img src="https://www.fillmurray.com/1200/200" class="img-fluid">
+        <div class="mb-4 d-none d-sm-block col-12">
+          <img src="https://www.fillmurray.com/1200/200" class="img-fluid col-auto">
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row justify-content-center mb-4">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Flavor Profiles</h6>
-              <small class="card-text">Your flavor profile helps us determine which coffees to send to you each month.
-                It
-                narrows down which coffees you will receive each month to ensure you always receive a coffee you're sure
-                to love. If you'd like to remove your flavor profile and let us drive, just click the button
-                below.</small>
-              <div class="container mt-3">
-                <div class="row justify-content-center">
-                  <form>
-                    <button type="submit" class="btn btn-primary mb-2">I'm Feeling Adventurous</button>
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Flavor Profiles</h6>
+                <hr>
+                <p class="card-text small">Your flavor profile helps us determine which coffees to send to you each
+                  month.
+                  It
+                  narrows down which coffees you will receive each month to ensure you always receive a coffee you're
+                  sure
+                  to love. If you'd like to remove your flavor profile and let us drive, just click the button
+                  below.</p>
+                <div class="container mt-3">
+                  <div class="row justify-content-center">
+                    <form>
+                      <button type="submit" class="btn btn-primary mb-2">I'm Feeling Adventurous</button>
+                  </div>
+                  </form>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-12">
+            <h6>Your Current Profile Settings</h6>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="col-12 col-md-6">
+            <div class="card">
+              <div class="p-2">
+                <h6 class="card-title mt-2">Overall Flavor</h6>
+                <hr>
+                <p class="card-text font-italic small">Select one or more general flavor families you enjoy to give us a
+                  starting place.</p>
+                <div class="container mt-3">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Sweet</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Floral</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Fruity</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-1">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Nutty</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Spices</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Cocoa</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-1">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Fermented</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Vegetative</label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Other</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-3 mt-sm-3 mt-md-0">
+            <div class="card">
+              <div class="p-2">
+                <h6 class="card-title mt-2">Roast Level</h6>
+                <hr>
+                <p class="card-text font-italic small">Select your preferred roast level. Lighter roasts tend to taste
+                  closer to their tasting notes. Darker roasts take on a more smoky flavor.</p>
+                <form>
+                  <div class="form-group mt-4">
+                    <input type="range" class="form-control-range">
+                  </div>
                 </form>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-12">
-          <h6>Your Current Profile Settings</h6>
-        </div>
-      </div>
-      <div class="row justify-content-center mb-3">
-        <div class="col-12 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Overall Flavor</h6>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <div class="card">
+              <div class="p-2">
+                <h6 class="card-title mt-2">Brew Method</h6>
+                <hr>
+                <p class="card-text font-italic small">What brew methods do you typically use? Most people just choose
+                  auto
+                  drip. That's your standard coffee maker.</p>
+                <div class="container mt-3">
 
-              <small class="card-text font-italic">Select one or more general flavor families you enjoy to give us a
-                starting place.</small>
-              <div class="container mt-3">
-                <div class="row">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Sweet</label>
+
+                  <div class="row mt-1">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Espresso</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Floral</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label text-nowrap" for="inlineCheckbox2">Pour Over</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Fruity</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Drip</label>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="row mt-1">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Nutty</label>
+                <div class="container mt-3">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Percolator</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Spices</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Press</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Cocoa</label>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row mt-1">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Fermented</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Vegetative</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Other</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Other</label>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Roast Level</h6>
+          <div class="col-12 col-md-6 mt-3 mt-sm-3 mt-md-0">
+            <div class="card">
+              <div class="p-2">
+                <h6 class="card-title">Preferences</h6>
+                <hr>
+                <p class="card-text font-italic small">Other considerations such as decaffeinated, coffee origin, and
+                  fair
+                  trade designations.</p>
+                <div class="container mt-3">
 
-              <small class="card-text font-italic">Select your preferred roast level. Lighter roasts tend to taste
-                closer to their tasting notes. Darker roasts take on a more smoky flavor.</small>
-              <form>
-                <div class="form-group mt-4">
-                  <input type="range" class="form-control-range">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Brew Method</h6>
-
-              <small class="card-text font-italic">What brew methods do you typically use? Most people just choose auto
-                drip. That's your standard coffee maker.</small>
-              <div class="container mt-3">
-                <div class="row">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Auto Drip</label>
+                  <div class="row mt-1">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Decaf</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Espresso</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label text-nowrap" for="inlineCheckbox2">Fair Trade</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Pour Over</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Organic</label>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="row mt-1">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Percolator</label>
+                <div class="container mt-3">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label text-nowrap" for="inlineCheckbox1">Single Orig.</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">French Press</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Blend</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Other</label>
+                    <div class="col-4">
+                      <div class="form-check form-check-inline form-control-sm">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Indie</label>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Preferences</h6>
 
-              <small class="card-text font-italic">Other considerations such as decaffeinated, coffee origin, and fair
-                trade designations.</small>
-              <div class="container mt-3">
-                <div class="row">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Decaffeinated</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Fair Trade</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Organic</label>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row mt-1">
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label" for="inlineCheckbox1">Single Origin</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                      <label class="form-check-label" for="inlineCheckbox2">Blend</label>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                      <label class="form-check-label" for="inlineCheckbox3">Independent</label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Cancel</button>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Apply Changes</button>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center mt-4">
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Cancel</button>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Apply Changes</button>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer class="footer">
+    </main>
+  </div>
+  <footer class="footer bg-light p-2 mt-3">
     <div class="container">
-      <span>&COPY; Copyright 2020, Post Roast</span>
+      <div class="row justify-content-center">
+        <small class="text-muted">&COPY; Copyright 2020, Post Roast</small>
+      </div>
     </div>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
