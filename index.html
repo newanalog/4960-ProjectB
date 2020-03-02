@@ -19,11 +19,11 @@
         <a class="navbar-brand" href="index.html">
           <img src="/static/img/navlogo.jpg" height="40">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav text-center mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Post Roast Story</a>
@@ -43,7 +43,7 @@
           </ul>
           <ul class="navbar-nav text-center">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Account</a>
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Account</a>
               <div class="dropdown-menu dropdown-menu-right text-center">
                 <a class="dropdown-item" href="profile.html">Flavor Profile</a>
                 <a class="dropdown-item" href="#">Orders</a>
@@ -57,11 +57,11 @@
       </nav>
     </header>
     <main class="container">
-      <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
+      <div id="carousel-indicators" class="carousel slide col-12" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-indicators" data-slide-to="1"></li>
+          <li data-target="#carousel-indicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -74,16 +74,15 @@
             <img class="d-block w-100" src="https://www.fillmurray.com/1200/435" alt="Third slide">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+        <a class="carousel-control-prev" href="#carousel-indicators" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
+        <a class="carousel-control-next" href="#carousel-indicators" data-slide="next">
           <span class="carousel-control-next-icon"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
-
       <div class="container">
         <div class="row justify-content-center jumbotron jumbotron-white">
           <div class="col-6 col-sm-5 col-md-3 align-self-center">
@@ -125,7 +124,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
