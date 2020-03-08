@@ -58,7 +58,7 @@
     <main class="container">
       <div class="row">
         <div class="mb-4 d-none d-sm-block col-12">
-          <img src="https://www.fillmurray.com/1200/200" class="img-fluid col-auto">
+          <img src="static/img/profile-top.jpg" class="img-fluid col-auto">
         </div>
       </div>
       <div class="container">
@@ -66,7 +66,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-body">
-                <h6 class="card-title">Flavor Profiles</h6>
+                <h6 class="card-title txt-shadow">Flavor Profiles</h6>
                 <hr>
                 <p class="card-text small">Your flavor profile helps us determine which coffees to send to you each
                   month.
@@ -88,7 +88,7 @@
         </div>
         <div class="row mb-2">
           <div class="col-12">
-            <h6>Your Current Profile Settings</h6>
+            <h6 class="txt-shadow">Your Current Profile Settings</h6>
           </div>
         </div>
         <div class="row justify-content-center mb-3">
@@ -173,11 +173,20 @@
                 <hr>
                 <p class="card-text font-italic small">Select your preferred roast level. Lighter roasts tend to taste
                   closer to their tasting notes. Darker roasts take on a more smoky flavor.</p>
-                <form>
-                  <div class="form-group mt-4">
-                    <input type="range" class="form-control-range">
+
+                <div class="container mt-3">
+                  <div class="row justify-content-center">
+                    <div class="col-12">
+                      <input type="range" id="roast-slider" class="form-control-range" min="0" max="70">
+                    </div>
                   </div>
-                </form>
+                  <div class="row justify-content-center">
+                    <div class="col-12">
+                      <div class="d-block mt-3 mb-2 text-center" id="roast-level">City/Medium Roast</div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -243,7 +252,7 @@
           <div class="col-12 col-md-6 mt-3 mt-sm-3 mt-md-0">
             <div class="card">
               <div class="p-2">
-                <h6 class="card-title">Preferences</h6>
+                <h6 class="card-title txt-shadow">Preferences</h6>
                 <hr>
                 <p class="card-text font-italic small">Other considerations such as decaffeinated, coffee origin, and
                   fair
@@ -293,8 +302,6 @@
                     </div>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
@@ -330,6 +337,36 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script>
+    const roastLevelDiv = document.getElementById("roast-level");
+    const slider = document.getElementById("roast-slider");
+    slider.addEventListener("change", e => {
+      const value = e.target.value;
+      switch (true) {
+        case (value <= 10):
+          roastLevelDiv.innerText = "Cinnamon Roast";
+          break;
+        case (value <= 20):
+          roastLevelDiv.innerText = "Light Roast";
+          break;
+        case (value <= 30):
+          roastLevelDiv.innerText = "City/Medium Roast";
+          break;
+        case (value <= 40):
+          roastLevelDiv.innerText = "Full City Roast";
+          break;
+        case (value <= 50):
+          roastLevelDiv.innerText = "Dark Roast";
+          break;
+        case (value <= 60):
+          roastLevelDiv.innerText = "French Roast";
+          break;
+        default:
+          roastLevelDiv.innerText = "Italian Roast";
+          break;
+      }
+    });
+  </script>
 </body>
 
 </html>

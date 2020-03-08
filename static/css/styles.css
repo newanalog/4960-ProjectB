@@ -17,6 +17,14 @@ button {
     font-family: 'Cabin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.img-shadow {
+  box-shadow: 1px 1px 3px 0px #00000033;
+}
+
+.txt-shadow {
+  text-shadow: 1px 2px 3px #00000033;
+}
+
 .content {
     flex: 1 0 auto;
   }
