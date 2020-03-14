@@ -22,7 +22,7 @@ button {
 }
 
 .txt-shadow {
-  text-shadow: 1px 2px 3px #00000033;
+  text-shadow: 1px 1px 3px #00000025;
 }
 
 .content {
@@ -37,7 +37,7 @@ small > a {
 }
 
 .borderline {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #512757 !important;
   padding-top: 2em;
 }
 
@@ -50,68 +50,58 @@ small > a {
 }
 
 .accordion > .card .card-header {
-  /* background-color: #994B3C; */
-background-color: #666666;
+  background-color: #666666;
   color: #ffffff;
   text-shadow: 0px .5px 1.5px #333333;
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 1rem;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
 }
 
 .jumbotron-white {
-    background-color: #ffffff;
-  }
-  .jumbotron-red {
-    background-color: #994B3C;
-    color: #ffffff;
-  }
+  background-color: #ffffff;
+}
+.jumbotron-red {
+  background-color: #994B3C;
+  color: #ffffff;
+}
 
-  nav {
-    font-family: 'Cabin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+nav {
+  font-family: 'Cabin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  nav a.nav-link, nav a.dropdown-item {
-    color: #994B3C !important;
-  }
+nav a.nav-link, nav a.dropdown-item {
+  color: #994B3C !important;
+}
 
-  nav a.nav-link.active {
-      text-decoration: underline;
-  }
+nav a.nav-link.active {
+    text-decoration: underline;
+}
 
-  nav a.dropdown-item.active {
-    background-color: #994B3C;
-    color: #ffffff !important;
-  }
+nav a.dropdown-item.active {
+  background-color: #994B3C;
+  color: #ffffff !important;
+}
 
-  nav a.dropdown-item:active {
-    background-color: #85200C;
-    color: #ffffff !important;
-  }
+nav a.dropdown-item:active {
+  background-color: #85200C;
+  color: #ffffff !important;
+}
 
-  button:active, button:focus {
-      outline: none !important;
-      box-shadow: none !important;
-  }
-
-  main button {
-      background-color: #994B3C !important;
-      border-color: #994B3C !important;
-  }
-
-  .list-group-item.active {
-    background-color: #994B3C !important;
+button:active, button:focus {
     outline: none !important;
+    box-shadow: none !important;
+}
+
+main button {
+    background-color: #994B3C !important;
     border-color: #994B3C !important;
-  }
-  
-/*
-Pallette
-#85200C
-#D13313
-#994B3C
-#D16752
-#521407
-*/
+}
+
+.list-group-item.active {
+  background-color: #994B3C !important;
+  outline: none !important;
+  border-color: #994B3C !important;
+}
